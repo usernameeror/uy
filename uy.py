@@ -251,12 +251,12 @@ def menu():
 	print(s+">"+m+"03"+s+"<"+l+" Crack Pertemanan Publik "+s+"{"+m+"Masal"+s+"}")
 	print(s+">"+m+"04"+s+"<"+l+" Crack Akun Old 2004/2008 "+s+"{"+m+"Masal"+s+"}")
 	print(s+">"+m+"05"+s+"<"+l+" Crack Akun Old 2004/2010 "+s+"{"+m+"Masal"+s+"}")
-	print(s+">"+m+"06"+s+"]"+l+"\x1b[1;97m MODE \x1b[1;91mTarget")
-	print(s+">"+m+"07"+s+"."+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
-	print(s+">"+m+"08"+s+"."+l+" Cek Result Crack")
-	print(s+">"+m+"09"+s+"."+l+" User agent")
-	print(s+">"+m+"10"+s+"."+l+" Get Data Target")
-	print(s+">"+m+"11"+s+"."+l+" Settings tema ")
+	print(s+">"+m+"06"+s+"<"+l+"\x1b[1;97m MODE \x1b[1;91mTarget")
+	print(s+">"+m+"07"+s+"<"+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
+	print(s+">"+m+"08"+s+"<"+l+" Cek Result Crack")
+	print(s+">"+m+"09"+s+"<"+l+" User agent")
+	print(s+">"+m+"10"+s+"<"+l+" Get Data Target")
+	print(s+">"+m+"11"+s+"<"+l+" Settings tema ")
 	print(s+"["+m+"00"+s+"]"+m+" Hapus Token")
 	sayangku = input("\n"+balmond+l+"\x1b[1;97m Pilih : \x1b[1;91m")
 	if sayangku=="1" or sayangku=="01":
@@ -1338,7 +1338,7 @@ def api(uid,pwx,loop):
 					dett = jutt[0]+"."+jitt[0]+"m"
 			elif dutt>0 and dutt<60:
 				dett = ditt[0]+"d"
-	print("\r{"+u+"Mcybear×"+s+"} "+l+"%s/%s OK:%s CP:%s %s[%s%s%s] [%s%s%s]"%(loop,len(id),len(ok),len(cp),h,k,persen,h,k,dett,h), end=' ');sys.stdout.flush()
+	print("\r{"+u+"Sanz"+s+"} "+l+"%s/%s OK:%s CP:%s %s[%s%s%s] [%s%s%s]"%(loop,len(id),len(ok),len(cp),h,k,persen,h,k,dett,h), end=' ');sys.stdout.flush()
 	ses = requests.Session()
 	for pw in pwx:
 		try:
@@ -1504,7 +1504,7 @@ def mbasic(uid,pwx,loop):
 					dett = jutt[0]+"."+jitt[0]+"m"
 			elif dutt>0 and dutt<60:
 				dett = ditt[0]+"d"
-	print("\r{"+u+"SabarYaBree"+s+"} "+l+"%s/%s OK:%s CP:%s %s[%s%s%s] [%s%s%s]"%(loop,len(id),len(ok),len(cp),h,k,persen,h,k,dett,h), end=' ');sys.stdout.flush()
+	print("\r{"+u+"Sanz"+s+"} "+l+"%s/%s OK:%s CP:%s %s[%s%s%s] [%s%s%s]"%(loop,len(id),len(ok),len(cp),h,k,persen,h,k,dett,h), end=' ');sys.stdout.flush()
 	ses = requests.Session()
 	for pw in pwx:
 		try:
