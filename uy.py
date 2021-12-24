@@ -255,8 +255,7 @@ def menu():
 	print(s+">"+m+"07"+s+"<"+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
 	print(s+">"+m+"08"+s+"<"+l+" Cek Result Crack")
 	print(s+">"+m+"09"+s+"<"+l+" User agent")
-	print(s+">"+m+"10"+s+"<"+l+" Get Data Target")
-	print(s+">"+m+"11"+s+"<"+l+" Settings tema ")
+	print(s+">"+m+"10"+s+"<"+l+" Settings tema ")
 	print(s+"["+m+"00"+s+"]"+m+" Hapus Token")
 	sayangku = input("\n"+balmond+l+"\x1b[1;97m Pilih : \x1b[1;91m")
 	if sayangku=="1" or sayangku=="01":
@@ -273,14 +272,12 @@ def menu():
 		jalan ("\x1b[1;97mSUBSCRIBE dulu Bree :v"),time.sleep(1)
 		os.system("xdg-open https://youtube.com/c/MBEWLEGS")
 		Target()
-	elif sayangku=="11" or sayangku=="11":
+	elif sayangku=="10" or sayangku=="11":
 		tema()
 	elif sayangku=="7" or sayangku=="07":
 		cek_opsi()
 	elif sayangku=="8" or sayangku=="08":
 		result()
-        elif sayangku=="10" or sayangku=="10":
-                GetData()
 	elif sayangku=="9" or sayangku=="09":
 		user_agent()
 	elif sayangku=="0" or sayangku=="00":
