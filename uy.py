@@ -279,6 +279,8 @@ def menu():
 		cek_opsi()
 	elif sayangku=="8" or sayangku=="08":
 		result()
+        elif sayangku=="10" or sayangku=="10":
+                GetData()
 	elif sayangku=="9" or sayangku=="09":
 		user_agent()
 	elif sayangku=="0" or sayangku=="00":
@@ -317,7 +319,7 @@ def Target():
         print ("Ada %s Target"%len(id))
         mode_passTarget()
 
-def GetDat():
+def GetData():
     try:
         token = open("token.txt","r").read()
     except IOError:
