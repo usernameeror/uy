@@ -246,18 +246,18 @@ def menu():
 	print(balmond+l+" Status User : \x1b[1;91mPengguna gratis:(")
 	print(balmond+u+k+" Date        :"+p+" %s"%(hck))
 	print(b+line)
-	print(s+">"+m+"1"+s+"<"+l+" Crack Dari Pertemanan Atau Publik "+u+"{5000}")
-	print(s+">"+m+"2"+s+"<"+l+" Crack Dari Followers Publik "+u+"{5000}")
-	print(s+">"+m+"3"+s+"<"+l+" Crack Pertemanan Publik "+s+"{"+m+"Masal"+s+"}")
-	print(s+">"+m+"4"+s+"<"+l+" Crack Akun Old 2004/2008 "+s+"{"+m+"Masal"+s+"}")
-	print(s+">"+m+"5"+s+"<"+l+" Crack Akun Old 2004/2010 "+s+"{"+m+"Masal"+s+"}")
-	print("\n"+s+"["+m+"6"+s+"]"+l+"\x1b[1;97m MODE \x1b[1;91mTarget"+l+"(fitur premium) \n")
-	print(s+">"+m+"7"+s+"."+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
-	print(s+">"+m+"8"+s+"."+l+" Cek Result Crack")
-	print(s+">"+m+"9"+s+"."+l+" Ganti tema")
+	print(s+">"+m+"01"+s+"<"+l+" Crack Dari Pertemanan Atau Publik "+u+"{5000}")
+	print(s+">"+m+"02"+s+"<"+l+" Crack Dari Followers Publik "+u+"{5000}")
+	print(s+">"+m+"03"+s+"<"+l+" Crack Pertemanan Publik "+s+"{"+m+"Masal"+s+"}")
+	print(s+">"+m+"04"+s+"<"+l+" Crack Akun Old 2004/2008 "+s+"{"+m+"Masal"+s+"}")
+	print(s+">"+m+"05"+s+"<"+l+" Crack Akun Old 2004/2010 "+s+"{"+m+"Masal"+s+"}")
+	print(s+">"+m+"06"+s+"]"+l+"\x1b[1;97m MODE \x1b[1;91mTarget"+l+")
+	print(s+">"+m+"07"+s+"."+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
+	print(s+">"+m+"08"+s+"."+l+" Cek Result Crack")
+	print(s+">"+m+"09"+s+"."+l+" User agent")
 	print(s+">"+m+"10"+s+"."+l+" Get Data Target")
-	print(s+">"+m+"11"+s+"."+l+"Setting User Agent ")
-	print(s+"["+m+"0"+s+"]"+m+" Hapus Token")
+	print(s+">"+m+"11"+s+"."+l+" Settings tema ")
+	print(s+"["+m+"00"+s+"]"+m+" Hapus Token")
 	sayangku = input("\n"+balmond+l+"\x1b[1;97m Pilih : \x1b[1;91m")
 	if sayangku=="1" or sayangku=="01":
 		publik()
@@ -273,14 +273,14 @@ def menu():
 		jalan ("\x1b[1;97mSUBSCRIBE dulu Bree :v"),time.sleep(1)
 		os.system("xdg-open https://youtube.com/c/MBEWLEGS")
 		Target()
-	elif sayangku=="11" or sayangku=="111":
-		user_agent()
+	elif sayangku=="11" or sayangku=="11":
+		tema()
 	elif sayangku=="7" or sayangku=="07":
 		cek_opsi()
 	elif sayangku=="8" or sayangku=="08":
 		result()
 	elif sayangku=="9" or sayangku=="09":
-		tema()
+		user_agent()
 	elif sayangku=="0" or sayangku=="00":
 		os.system("rm -rf token.txt")
 		jalan(balmond+l+" Thanks Udah Pake Sc Gua bree")
