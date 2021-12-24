@@ -159,9 +159,8 @@ def banner():
  \x1b[1;92m\_____  \   \x1b[1;93m_______  /  /_\  \  /   |   \   \x1b[1;92m/     /
  \x1b[1;92m/ V2.1   \ \x1b[1;93m/______/ /    |    \/    |    \ \x1b[1;92m/     /_ 
  \x1b[1;92m/______  /          \x1b[1;93m\____|__  /\____|__  /\x1b[1;92m/_______ \  
- \x1b[1;92m       \/     \x1b[1;93m              \/         \/         \x1b[1;92m\/    """%(N))
-\033[94;1m║\033[97;1m─────────────────────────────────────────────────────────────
-\033[94;1m╠[ \033[97;1mScript Crack Facebook Yang dirawat seperti anak sendiri
+ \x1b[1;92m       \/     \x1b[1;93m              \/         \/         \x1b[1;92m\/   
+\033[94;1m╠[ \033[97;1mScript Crack Facebook Yang dirawat 
 \x1b[1;94m%s"""%(ris))
 
 MAX_IPV4 = ipaddress.IPv4Address._ALL_ONES # IP
