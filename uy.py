@@ -153,7 +153,7 @@ def clear():
 # LOGO
 ris="──────────────────────────────────────────────────────────────"
 def banner():
-	jala ("""\x1b[1;92m
+	print ("""\x1b[1;92m
  \x1b[1;92m _________             \x1b[1;93m_____    _______   \x1b[1;92m__________
  \x1b[1;92m/   _____/            \x1b[1;93m/  _  \   \      \  \x1b[1;92m\____    /
  \x1b[1;92m\_____  \   \x1b[1;93m_______  /  /_\  \  /   |   \   \x1b[1;92m/     /
@@ -251,7 +251,7 @@ def menu():
 	print(s+">"+m+"03"+s+"<"+l+" Crack Pertemanan Publik "+s+"{"+m+"Masal"+s+"}")
 	print(s+">"+m+"04"+s+"<"+l+" Crack Akun Old 2004/2008 "+s+"{"+m+"Masal"+s+"}")
 	print(s+">"+m+"05"+s+"<"+l+" Crack Akun Old 2004/2010 "+s+"{"+m+"Masal"+s+"}")
-	print(s+">"+m+"06"+s+"]"+l+"\x1b[1;97m MODE \x1b[1;91mTarget"+l+")
+	print(s+">"+m+"06"+s+"]"+l+"\x1b[1;97m MODE \x1b[1;91mTarget")
 	print(s+">"+m+"07"+s+"."+l+" Lihat opsi Hasil Crack "+s+"{ok/cp}")
 	print(s+">"+m+"08"+s+"."+l+" Cek Result Crack")
 	print(s+">"+m+"09"+s+"."+l+" User agent")
