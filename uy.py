@@ -260,20 +260,14 @@ def menu():
 	print(s+"["+m+"0"+s+"]"+m+" Hapus Token")
 	sayangku = input("\n"+balmond+l+"\x1b[1;97m Pilih : \x1b[1;91m")
 	if sayangku=="1" or sayangku=="01":
-		jalan ("\x1b[1;97mIklan dulu Bree :v"),time.sleep(1)
-		os.system("xdg-open https://youtu.be/6tTX5ACy_Js")
 		publik()
 	elif sayangku=="2" or sayangku=="02":
 		follow()
 	elif sayangku=="3" or sayangku=="03":
 		massal()
 	elif sayangku=="4" or sayangku=="04":
-		jalan ("\x1b[1;97mIklan dulu Bree :v"),time.sleep(1)
-		os.system("xdg-open https://youtu.be/LtIUQD_f0DA")
 		dump_old()
 	elif sayangku=="5" or sayangku=="05":
-		jalan ("\x1b[1;97mIklan dulu Bree :v"),time.sleep(1)
-		os.system("xdg-open https://youtu.be/LwtG_MpmfOA")
 		dump_old2()
 	elif sayangku=="6" or sayangku=="06":
 		jalan ("\x1b[1;97mSUBSCRIBE dulu Bree :v"),time.sleep(1)
@@ -287,11 +281,9 @@ def menu():
 		result()
 	elif sayangku=="9" or sayangku=="09":
 		tema()
-	elif sayangku=="10":
-		GetData()
 	elif sayangku=="0" or sayangku=="00":
 		os.system("rm -rf token.txt")
-		jalan(balmond+l+" Thanks Udah Pake Sc Gua Der")
+		jalan(balmond+l+" Thanks Udah Pake Sc Gua bree")
 		time.sleep(0.5)
 		exit()
 	else:
@@ -324,12 +316,6 @@ def Target():
                         exit()
         print ("Ada %s Target"%len(id))
         mode_passTarget()
-
-def GetData():
-	clear()
-	jalan ("\x1b[1;92mMohon Maaf🙏 \x1b[1;93mFitur ini sedang dalam \x1b[1;91mperbaikan!!!")
-	ucup=input("\n\x1b[1;94m [Enter]")
-	menu()
 
 def GetDat():
     try:
